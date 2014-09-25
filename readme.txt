@@ -44,7 +44,8 @@ And continue with:
 None
 
 == Screenshots ==
-None
+1. Screenshot of the widget edit screen in the admin panel
+2. Screenshot of the widget edit screen with image selected for use in widget
 
 == Changelog ==
 
