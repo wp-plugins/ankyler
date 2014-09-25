@@ -1,0 +1,59 @@
+*[id*="_ankyler-widget"]>div.widget-top>div.widget-title>h4:before {
+	font-family: "dashicons";
+	content: "\f242";
+	width: 33px;
+	float: left;
+	height: 6px;
+	margin-top: -4px;
+	font-size: 22px;
+}
+
+.ankyler-preview {
+	overflow: hidden;
+	max-height: 300px;
+	position: relative;
+	display: block;
+}
+
+.ankyler-preview img {
+	margin: -10px 0 0 0;
+	padding: 10px 0;
+	height: auto;
+	width: 100%;
+}
+
+.ankyler-image-toolbar {
+	position: absolute;
+	left: 0;
+	top: 5px;
+	height: 30px;
+	width: auto;
+}
+
+.ankyler-image-toolbar .dashicons {
+	background-color: rgba(0, 0, 0, 0.9);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+	color: white;
+	cursor: pointer;
+	font-size: 30px;
+	height: 28px;
+	margin-left: 7px;
+	margin-top: 7px;
+	padding: 2px;
+	width: 28px;
+	text-align: center;
+}
+
+.ankyler-image-toolbar.old-uploader .dashicons {
+	padding: 12px 2px 0 2px;
+}
+
+.ankyler-image-toolbar .dashicons:hover {
+	background-color: #000;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+	color: #2ea2cc;
+}
+
+.ankyler-title {
+	margin-top: -15px;
+}
