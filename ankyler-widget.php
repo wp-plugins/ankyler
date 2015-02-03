@@ -5,7 +5,7 @@ Plugin URI:		http://www.ankyler.com/
 Description:	With the Ankyler widget you can place title-image-text-link combinations directly in a widget area.
 Author:			Ruud Laan, Edwin Siebel
 Author URI:		http://www.ankyler.com/
-Version:		1.0
+Version:		1.0.1
 Text Domain:	ankyler-widget
 License:		GPL-2.0+
 License URI:	http://www.gnu.org/licenses/gpl-2.0.txt
