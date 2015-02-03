@@ -1,11 +1,11 @@
 === Ankyler ===
 
-Contributors: Ruud Laan, Edwin Siebel
+Contributors: ruudjoyo, edwin-yard
 Url: http://www.ankyler.com/
 Tags: Ankyler widget, content, image, link, teaser, crosslink, slider
 Requires at least: 3.0
-Tested up to: 4.0
-Stable tag: 1.0
+Tested up to: 4.1
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -48,6 +48,9 @@ None
 2. Screenshot of the widget edit screen with image selected for use in widget
 
 == Changelog ==
+
+= 1.0.1 =
+Now makes use of the optgroup in the select function for selecting a (custom)posttype in the widget.
 
 = 1.0 =
 Initial commit

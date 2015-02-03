@@ -115,10 +115,11 @@ if ( ! class_exists( 'Ankyler' ) ) {
 	
 				$options = get_posts( $args );
 				if ( ! empty( $options ) ) {
-					$mergedOptions[] = '<option value="-1">==== ' . $posttype[1] . ' ====</option>';
+					$mergedOptions[] = '<optgroup label="'. $posttype[1] .'" value="-1">';
 					foreach ( $options as $option ) {
 						$mergedOptions[] = '<option value="' . $option->ID . '">' . $option->post_title . '</option>';
 					}
+					$mergedOptions[] = '</optgroup>';
 				}
 			}
 			$mergeString = implode( $mergedOptions );
